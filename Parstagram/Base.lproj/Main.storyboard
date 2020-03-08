@@ -96,30 +96,34 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="432"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="taO-Uf-H2R">
-                                                    <rect key="frame" x="23" y="19" width="329" height="332"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="taO-Uf-H2R">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="338"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hot crackers! That's a beauty!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FC8-Nf-iOS">
-                                                    <rect key="frame" x="58" y="403" width="294" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Jim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R44-ws-yKo">
+                                                    <rect key="frame" x="15" y="357" width="36" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R44-ws-yKo">
-                                                    <rect key="frame" x="23" y="402" width="27" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hot crackers! That's a beauty!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FC8-Nf-iOS">
+                                                    <rect key="frame" x="71" y="357" width="190" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="taO-Uf-H2R" firstAttribute="top" secondItem="4Bi-J3-y28" secondAttribute="topMargin" constant="8" id="2VW-2g-9Fm"/>
-                                                <constraint firstItem="R44-ws-yKo" firstAttribute="top" secondItem="taO-Uf-H2R" secondAttribute="bottom" constant="8" id="8o5-CL-YKA"/>
-                                                <constraint firstItem="FC8-Nf-iOS" firstAttribute="leading" secondItem="R44-ws-yKo" secondAttribute="trailing" constant="8" id="GIb-Si-wBS"/>
-                                                <constraint firstItem="taO-Uf-H2R" firstAttribute="leading" secondItem="4Bi-J3-y28" secondAttribute="leadingMargin" constant="8" id="OvN-1z-OF5"/>
-                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="FC8-Nf-iOS" secondAttribute="bottom" constant="8" id="W0z-in-EmL"/>
-                                                <constraint firstItem="FC8-Nf-iOS" firstAttribute="top" secondItem="taO-Uf-H2R" secondAttribute="bottom" constant="8" id="Xtl-NL-1Vg"/>
-                                                <constraint firstItem="R44-ws-yKo" firstAttribute="leading" secondItem="4Bi-J3-y28" secondAttribute="leadingMargin" constant="8" id="tBR-ZC-gpb"/>
+                                                <constraint firstItem="R44-ws-yKo" firstAttribute="leading" secondItem="4Bi-J3-y28" secondAttribute="leadingMargin" constant="8" id="3zU-sj-Mqd"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="FC8-Nf-iOS" secondAttribute="bottom" constant="8" id="8DG-et-LBl"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="R44-ws-yKo" secondAttribute="bottom" constant="8" id="Fh5-yz-mpr"/>
+                                                <constraint firstItem="R44-ws-yKo" firstAttribute="top" secondItem="taO-Uf-H2R" secondAttribute="bottom" constant="8" id="Or4-Uh-dHc"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="FC8-Nf-iOS" secondAttribute="trailing" constant="8" id="UWF-cI-x5Y"/>
+                                                <constraint firstAttribute="trailing" secondItem="taO-Uf-H2R" secondAttribute="trailing" constant="8" id="XnC-wA-BfS"/>
+                                                <constraint firstItem="FC8-Nf-iOS" firstAttribute="leading" secondItem="R44-ws-yKo" secondAttribute="trailing" constant="8" id="bf6-SY-DsC"/>
+                                                <constraint firstItem="FC8-Nf-iOS" firstAttribute="top" secondItem="taO-Uf-H2R" secondAttribute="bottom" constant="8" id="fm5-LJ-T04"/>
+                                                <constraint firstItem="taO-Uf-H2R" firstAttribute="leading" secondItem="4Bi-J3-y28" secondAttribute="leadingMargin" constant="8" id="nRg-YJ-5Su"/>
+                                                <constraint firstItem="taO-Uf-H2R" firstAttribute="top" secondItem="4Bi-J3-y28" secondAttribute="topMargin" constant="8" id="s31-ke-QEs"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
