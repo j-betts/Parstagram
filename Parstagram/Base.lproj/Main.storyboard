@@ -174,20 +174,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHg-C8-nbL">
-                                                    <rect key="frame" x="16" y="8" width="326" height="28"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="326" id="Ikg-Um-MLq"/>
-                                                    </constraints>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHg-C8-nbL">
+                                                    <rect key="frame" x="29" y="8" width="114" height="28"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="SHg-C8-nbL" firstAttribute="centerY" secondItem="mVb-Ev-Gsy" secondAttribute="centerY" id="FE9-uD-zkc"/>
-                                                <constraint firstItem="SHg-C8-nbL" firstAttribute="top" secondItem="mVb-Ev-Gsy" secondAttribute="topMargin" constant="-3" id="mlJ-kD-lIY"/>
-                                                <constraint firstItem="SHg-C8-nbL" firstAttribute="leading" secondItem="mVb-Ev-Gsy" secondAttribute="leadingMargin" constant="1" id="mom-Aq-p7T"/>
+                                                <constraint firstItem="SHg-C8-nbL" firstAttribute="top" secondItem="mVb-Ev-Gsy" secondAttribute="top" constant="8" id="6t1-4t-pXr"/>
+                                                <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="SHg-C8-nbL" secondAttribute="trailing" constant="8" id="QDy-lo-Ujj"/>
+                                                <constraint firstAttribute="bottom" secondItem="SHg-C8-nbL" secondAttribute="bottom" constant="8" id="aWR-80-vD5"/>
+                                                <constraint firstItem="SHg-C8-nbL" firstAttribute="leading" secondItem="mVb-Ev-Gsy" secondAttribute="leading" constant="16" id="obC-WO-yVn"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
